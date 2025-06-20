@@ -6,7 +6,8 @@
 ### Part I: Basics
 | Chapter | Title |
 |--------|-------|
-
+|Chapter 1| How to setting and install python and text editor|
+| 1 | Get Started, set and install
 
 ## Welcome to my Journey of python with Code Phantom.
 
