@@ -15,7 +15,7 @@
 ![Create*and*save*python*file](windows2.PNG)
 ![Python*source*code*and*its*output](windows3.PNG)
 
-                          ###Linux(Ubuntu)
+                          ### Linux(Ubuntu)
 #### step 1 first open terminal by clicking  ctrl + alt + t.
 #### step 2 then enter 'python3 --version' see 3.x.x if installed if not show an error.
 #### step 3 if not installed enter 'sudo apt install python3' then enter your sudo password if asked :white_check_mark:.
@@ -25,7 +25,7 @@
 #### step 6 then run python code 'python hello_world.py' then you can out like 'Hello World'.
 ![run*python*in*linux*ubuntu](linux2.PNG)
 
-### macOS.
+                            ### macOS.
   #### Step 1: Open Terminal. Press Cmd + Space, type Terminal, and press Enter
   #### Step 2: Check Python Installation, python3 --version, macOS may already have Python 3 installed
  #### Step 3: Install Python (If Needed), Visit: https://www.python.org, Download the latest .pkg installer for macOS, Open and install it by following the steps
