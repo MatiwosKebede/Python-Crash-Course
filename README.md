@@ -3,11 +3,24 @@
 
 ## 📚 Contents
 
-### Part I: Basics
-| Chapter | Title |
-|--------|-------|
-|Chapter 1| How to setting and install python and text editor|
-| 1 | Get Started, set and install
+### Part I Fundamentals
+|Chapter | Title|
+|1 | Get started |
+|2 | Simple variable and data type |
+|3 | Introducing Lists|
+|4 | Working with Lists|
+|5 | if statements |
+|6 | Dictionaries |
+|7 | User input and while loops|
+|8 | Functions |
+|9 | Class and Object |
+|10 | Files and Exceptions |
+|11 | Testing your code |
+|12 | Other import topic missed from Textbook|
+
+## Project 
+|No | Title |
+|1 | Calculator using python |
 
 ## Welcome to my Journey of python with Code Phantom.
 
