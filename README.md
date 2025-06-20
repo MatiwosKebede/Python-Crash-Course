@@ -5,6 +5,7 @@
 
 ### Part I Fundamentals
 |Chapter | Title|
+|--------|--------------------------|
 |1 | Get started |
 |2 | Simple variable and data type |
 |3 | Introducing Lists|
@@ -18,9 +19,11 @@
 |11 | Testing your code |
 |12 | Other import topic missed from Textbook|
 
-## Project 
+## Projects
 | No | Title |
+|----|----------------------------------|
 | 1 | Calculator using python |
+
 
 ## Welcome to my Journey of python with Code Phantom.
 
