@@ -19,8 +19,8 @@
 |12 | Other import topic missed from Textbook|
 
 ## Project 
-|No | Title |
-|1 | Calculator using python |
+| No | Title |
+| 1 | Calculator using python |
 
 ## Welcome to my Journey of python with Code Phantom.
 
