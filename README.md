@@ -1,5 +1,13 @@
 # Python Crash Course with Code Phantom
 
+
+## 📚 Contents
+
+### Part I: Basics
+| Chapter | Title |
+|--------|-------|
+
+
 ## Welcome to my Journey of python with Code Phantom.
 
 ### In this course we wake through.
