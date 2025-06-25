@@ -72,29 +72,25 @@ String	str	A series of characters
 Integer	int	Whole numbers
 Float	float	Decimal numbers
 Boolean	bool	True or False values
-### 1️⃣ String
+## 1️⃣ String
 
 A string is any text in quotes:
 
 message1 = "I am a Python string"
 message2 = 'I am also a Python string'
-
-Strings can include quotes:
-
-quote = "I'm learning Python"
-quote2 = 'He said "Python is great!"'
-
-#### 🔧 String Methods
-
 name = "phantom code"
-print(name.upper())  # PHANTOM CODE
-print(name)          # phantom code
+### string methods
+those are upper(), lower(), title(), count(), find(), startswith(), endswith(), isdigit(), isalpha(), isalnum(), 
+upper() is a method used to convert all characters in string to uppercase.
+e.g *print("python crash course".upper())*
+Output: *PYTHON CRASH COURSE*
+lower() is a method used to convert all charact
 
-#### 🔗 Using Variables in Strings (f-strings)
+### String Variables in Strings (f-strings)
 
-country = "x country"
-city = "y city"
-location = f"{country}, {city}"
+country = "Barbados"
+city = "Bridgetown"
+location = f"{country}, {city}*
 print(location)
 
 Output:
@@ -104,6 +100,14 @@ x country, y city
 name = "Alex"
 print(f"Hello, {name}.")
  Output: Hello, Alex.
+
+strings can include quotes:
+
+quote = "I'm learning Python"
+quote2 = 'He said "Python is great!"'
+
+#### 🔧 string Methods
+
 
 ### 🔣 Escape Characters
 Code	Meaning

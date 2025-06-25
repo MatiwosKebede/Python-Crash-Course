@@ -1,3 +1,15 @@
+# Variable basics in python
+# Variables are used to store data values
+
+# Define name and age variable
+name = "Alex" # store value "Alex" in variable name 
+age = 20 #store value 20 in variable age
+print(name) #output will be: Alex
+print(age) #output will be: 20
+
+
+
+
 # Naming_rules_and_examples for python variables but this rules also apples for funcations, classes and other identifiers
 # rule 1: variable names must letters, numbers, or underscores and cannot start with a number
 # rule 2: variable names cannot be a reserved keyword e.g if, else, for, print, etc.
