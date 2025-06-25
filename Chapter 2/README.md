@@ -504,7 +504,7 @@ print("\n\tPython Crash Course.")
 
 ⚠️ Common String Error
 
-<pre> # ❌ This will cause an error
+<pre>  ❌ This will cause an error
 myVar = 'I'm fine' </pre.>
 
  ✅ Correct way
