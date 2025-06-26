@@ -42,7 +42,7 @@
 ### :books: Textbook: Python crash course by Eric Matthes.
 ### :memo: My short note README file for each chapter.
 ### :bulb: Recommanded :computer: softwares, :hammer_and_wrench: Tools and :link: links
-### :fire: Youtube Channel link: https://youtube.com/CodePhantomOffical
+### :fire: Youtube Channel link: https://www.youtube.com/@CodePhantomOffical
 ### 👻 Github link https://github.com/MatiwosKebede
 
 ### :open_file_folder: Learn deeply, Explore code and Build project.
