@@ -45,4 +45,4 @@ print("Code Phantom".endswith("Code")) # Output: False
 # format() method is used to format a string by inserting values into placeholders.
 name = "Alex"
 age = 20
-print("my name is {} and I am {} years old.".format(name, age)) # Output: "my name is Alex and I am 20 years old."
+print("my name is {} and I am {} years old.".format(name, age)) # Output: "my name is Alex and I am 20 years old.
