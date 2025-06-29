@@ -192,3 +192,17 @@ Output:
 ['a', 'c', 'g', 'd', 'z', 'f']
 ['f', 'z', 'd', 'g', 'c', 'a']
 </pre>
+
+### Finding the length of the list.
+**len()**, In python to find the length of the list we use len() method.
+e.g 
+<pre>
+myNumber = [5, 52, 55, 65, 64]
+
+myLen = len(myNumber) # store the length of myNumber list to myLen variable.
+print(myLen) # this print the length of the list called myNumber.
+</pre>
+Output:
+<pre>
+5
+</pre>
