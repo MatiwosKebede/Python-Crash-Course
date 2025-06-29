@@ -35,4 +35,108 @@ Java
 Javascript
 Python
 </pre>
+## Manipulating list
+### Modifiying, Adding, Removing
+*Modefying*  in python we can modifiy the value of items in the list.
+we modifiy a list of items in the same way with accessing but assign the value after accessed immediatly.
+e.g <pre>
+PC_Brands = ["Toshiba", "Dell", "Mac"]
+print(PC_Brands) #displaying the list before modified.
 
+PC_Brands[0] = "Hp"
+print(PC_Brands) #Toshiba is modified to Hp
+</pre>
+Output: 
+<pre>
+['Toshiba', 'Dell', 'Mac']
+['Hp', 'Dell', 'Mac']
+</pre>
+
+### Adding
+Adding in python, we can add item value in to list in two ways using append() and insert() method.
+*append()*, using append method we can add item value to the end of the list, it simplest one.
+e.g 
+<pre>
+Mobile_Brands =["Iphone", "Samsung", "Huawei"]
+print(Mobile_Brands) #Display before new item value is added.
+
+Mobile_Brands.append("ZTE") #Add ZTE brands in the end of the list of Mobile_Brands.
+print(Mobile_Brands) #Display after ZTE is add to the end of the list.
+</pre>
+Output: 
+<pre>
+['Iphone', 'Samsung', 'Huawei']
+['Iphone', 'Samsung', 'Huawei', 'ZTE']
+</pre>
+
+**insert()* method, using insert method we can add value it any specific index on the lists, insert(new_Value, index).
+e.g 
+<pre>
+Mobile_Brands = ["Nokia", "Techno", "BlackBerry"]
+print(Mobile_Brands) #Orginal list.
+
+Mobile_Brands.insert("Oking", 0)
+print(Mobile_Brands) #Display after Oking is inserted into the list in 0 index.
+</pre>
+Output:
+<pre>
+['Nokia', 'Techno', 'BlackBerry']
+['Oking', 'Nokia', 'Techno', 'BlackBerry']
+</pre>
+
+### Removing
+Removing item from list in python there are 3 method used for this purpose, del keyword, remove method and pop method.
+**del** is a keyword in python used to delete variable and list item.
+e.g 
+<pre>
+Mobile_Brands = ["Nokia", "Tecno", "LTC"]
+print(Mobile_Brands) # Orginal list
+
+del Mobile_Brands[0]
+print(Mobile_Brands) # After Nokia removed from the list.
+</pre>
+Output:
+<pre>
+['Nokia', 'Techno', 'LTC']
+['Techno', 'LTC']
+</pre>
+
+
+**remove()** is a method used to remove item from lists of item form by giving value we wanna to remove from the list.
+*remember* remove() delete only first item catched, to remove many we have to loop stemenents.
+
+e.g 
+<pre>
+Continent_Lists = ["Africa", "Asia", "Europe". "North America", "South America", "Antarctica"]
+print(Continent_Lists) # Dispaly orginal list.
+
+Content_Lists.remove("Antarctica")
+print(Continent_Lists)
+</pre>
+Output:
+<pre>
+['Africa', 'Asia', 'Europe', 'North America', 'South America', 'Antarctica']
+['Africa', 'Asia', 'Europe', 'North America', 'South America']
+</pre>
+
+
+**pop()** is a method that used to remove item from end the list by default but we can specifiy value in the parenthese and return value of the removed item, its came from the stack concept.
+e.g
+<pre>
+Brand_Clothes = ['Nike', 'Jordan', 'Puma']
+print(Brand_Clothes) # Orignal lists.
+
+removed_value = Brand_Clothes.pop() #storing removed value in new variable called removed_value
+print(Brand_Clothes) #displaying after changes.
+
+print(f"I removed {removed_value}, because it is too expensive") #display the removed value.
+</pre>
+Output:
+<pre>
+['Nike', 'Jordan', 'Puma']
+['Nike', 'Jordan']
+I removed Puma, because it is too expensive.
+</pre>
+
+
+## Organizing lists
