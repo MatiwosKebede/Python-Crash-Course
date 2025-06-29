@@ -140,3 +140,55 @@ I removed Puma, because it is too expensive.
 
 
 ## Organizing lists
+Organizing means arranging order in the lists.
+In python there are different types of organizing keywords and method, such as sort(), sorted(), reverse(), etc.
+
+**sort()** is a method used to arrange the order of the list in alphabetical order permanently, ascending order by default as well as descending order by putting reverse=True in the parenthese of the sort() method like this sort(reverse = True)
+e.g 
+<pre>
+Proramming_Language = ["swift", "go", "rust", "sql", "c++"]
+print(Programming_Language) # dispaly list before sorted
+
+Programmming_Language.sort() # it make ascending order permantly we can do descending by doing e.g Programming_Language.sort(reverse=True)
+print(Programming Language) display list after sorted in ascending order.  
+</pre>
+Output: 
+<pre>
+['swift', 'go', 'rust', 'sql', 'c++']
+['c++', 'go', 'rust', 'sql', 'swift']
+</pre>
+
+**sorted** is a method used to sort list in ascending order by defult, or descending order by specifing but it is main difference from sort() is it is only order temporary not permantly.
+e.g 
+<pre>
+name_list = ["jusitn", "micheal", "selena", "abel"]
+print(name_list) # Orgianl lists.
+
+print(name_list.sorted(reverse=True)) # ordered the list in the descending order.
+
+print(name_list.sorted()) # ordered the list in the ascending order.
+
+print(name_list) # Back to orginal list order.
+</pre>
+<pre>
+['justin', 'micheal', 'selena', 'abel']
+['selena', 'micheal', justin', 'abel']
+['abel', 'justin', 'micheal', 'selena']
+['justin', 'micheal', 'selena', 'abel']
+</pre>
+
+**reverse()** is a method used to reverse the orginal order of the list permantly, but we can back it into the orginal by reversing two times.
+e.g 
+<pre>
+Alphabet_lists = ['a', 'c', 'g, 'd', 'z', 'f']
+print(Alphabet_lists) #Display orginal list
+
+Alphabet_lists.reverse() 
+print(Alphabet_lists) # display reversed order.
+</pre>
+
+Output:
+<pre>
+['a', 'c', 'g', 'd', 'z', 'f']
+['f', 'z', 'd', 'g', 'c', 'a']
+</pre>
