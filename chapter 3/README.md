@@ -123,6 +123,7 @@ Output:
 
 
 **pop()** is a method that used to remove item from end the list by default but we can specifiy value in the parenthese and return value of the removed item, its came from the stack concept.
+
 e.g
 <pre>
 Brand_Clothes = ['Nike', 'Jordan', 'Puma']
