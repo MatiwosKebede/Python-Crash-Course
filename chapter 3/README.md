@@ -37,6 +37,8 @@ Python
 </pre>
 ## Manipulating list
 ### Modifiying, Adding, Removing
+
+### Modifiying
 *Modefying*  in python we can modifiy the value of items in the list.
 we modifiy a list of items in the same way with accessing but assign the value after accessed immediatly.
 e.g <pre>
