@@ -1,5 +1,11 @@
 # Chapter 3
 # Introduction to list 
+## :books: Table contents
+[List](#what-is-list)
+[Accessing Lists](#how-to-access-item-in-the-list)
+[Indivdual Item Of list](#using-individual-item-from-the-list)
+[Manipulating list](#manipulating-list)
+[Orginizing list](#organizing-lists)
 ## What is list?
 **List** in python is a set of multiple item that store in one variable that can be store and accessed the whole, partially or individually,List can be a collection of any data type and a set from few to millions even greater.
 e.g 
@@ -36,7 +42,7 @@ Javascript
 Python
 </pre>
 ## Manipulating list
-### Modifiying, Adding, Removing
+### [Modifiying](#modifiying), [Adding](#adding), [Removing](#removing)
 
 ### Modifiying
 *Modefying*  in python we can modifiy the value of items in the list.
