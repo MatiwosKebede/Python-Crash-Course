@@ -13,3 +13,9 @@ print(alert) #display alert orginal value.
 alert = "Do it!" #alert variable value is change from Don't do it! to Do it
 print(alert) #now it display new value of variable alert called Do it!
 
+#2.3 Personal Message
+'''Use variable to represent a person's name and print a message to that person. Your message 
+should be simple, such as, "Hello phantom, would you like to learn same Python today?'''
+ 
+name = "Phantom" #name is defined and assign value to name
+print(f"Hello {Phantom}, would you like to learn same Python today?") # print a message using modern formating which f-string which enable us to embedded varible inside string.
