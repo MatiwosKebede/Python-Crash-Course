@@ -44,5 +44,17 @@ print(f'{famous_person} once said, The future is belongs to those who believe in
 p_name = "\nKarl Marx\t" #which new line in first the name then whitespace
 print(p_name) #display with both tab whitespace anad new line whitespace.
 print(p_name.rstrip()) #display only left whitespace and name are displayed, but right sidespace will deleted or ignored.
-print(p_name.lstrip()) # display only right whitespace and name are displayed, but left side whitespace will deleted or ignored.
-print(p_name.strip()) # display only the name neither right side nor left side white space is not shown.
+print(p_name.lstrip()) #display only right whitespace and name are displayed, but left side whitespace will deleted or ignored.
+print(p_name.strip()) #display only the name neither right side nor left side white space is not shown.
+
+# 2.8 Number Eight
+'''Write addition, subtraction, multiplication, and division operations that each reasult in number 8. 
+Be sure to enclose your operations in print() calls to see the results. You should create four lines that look like this:
+print(5+3)'''
+
+print(6+2) #addition result 8.
+print(13-5) #subtraction result 8.
+print(4*2) #multiplication result 8.
+print(24/3) #division result 8.
+#bonus tip
+print(2**3) #power result 8.
