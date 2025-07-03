@@ -58,3 +58,10 @@ print(4*2) #multiplication result 8.
 print(24/3) #division result 8.
 #bonus tip
 print(2**3) #power result 8.
+
+# 2.9 Favorite Number
+'''Use output should simply be four lines with 
+the number 8 appeaering once on each line.'''
+my_favorite_no = 0
+my_message = f"{my_favorite_no} is my favorite number."
+print(my_message)
