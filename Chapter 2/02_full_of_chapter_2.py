@@ -19,3 +19,12 @@ should be simple, such as, "Hello phantom, would you like to learn same Python t
  
 name = "Phantom" #name is defined and assign value to name
 print(f"Hello {Phantom}, would you like to learn same Python today?") # print a message using modern formating which f-string which enable us to embedded varible inside string.
+
+#2.4 Name Cases
+'''Use a variable to represnt a person's name, and then print that person's name in 
+lowercase, uppercase, and title case.'''
+person_name = "Linus Torvald"
+print(person_name.lower) #display all character in lowercase.
+print(person_name.upper) #display all character in uppercase.
+print(person_name.title) #display all character in title case.
+
