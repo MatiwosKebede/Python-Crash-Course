@@ -28,3 +28,7 @@ print(person_name.lower) #display all character in lowercase.
 print(person_name.upper) #display all character in uppercase.
 print(person_name.title) #display all character in title case.
 
+#2.5 Famous Quote
+'''Find a quote from a famous person you admire. Print the quote and the name of its author.
+Your output should look something like the following, including the quotations marks.'''
+print('Karl Marx once said: "I am nothing, but I must be everything.') #to print quote we have to use single qoute inside double qoute or vice verse.
