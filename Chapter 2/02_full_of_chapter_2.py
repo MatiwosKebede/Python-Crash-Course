@@ -65,3 +65,8 @@ the number 8 appeaering once on each line.'''
 my_favorite_no = 0
 my_message = f"{my_favorite_no} is my favorite number."
 print(my_message)
+
+#2.10 Adding comments
+'''Choose two of the program you've written, and add at least one comment to each.
+If you don't have anything specific to write the current date at the top of each program file. Then write one sentence describing what the program does.'''
+#you can see any of the above comment.
