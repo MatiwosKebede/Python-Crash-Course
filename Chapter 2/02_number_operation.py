@@ -23,7 +23,7 @@ exponent = num1 ** 2
 # Modulus (Remainder form division)
 remainder = num1 % 3
 # Absolute value
-int x = -10
+x = -10
 absolute_value = abs(-x)
 # Round a number 
 rounded_value = round(3.5654545,3) # Round to 3 decimal places

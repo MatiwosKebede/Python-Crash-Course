@@ -70,3 +70,7 @@ print(my_message)
 '''Choose two of the program you've written, and add at least one comment to each.
 If you don't have anything specific to write the current date at the top of each program file. Then write one sentence describing what the program does.'''
 #you can see any of the above comment.
+
+#2.11 Zen of Python
+'''Enter import this into a Python terminal session and skim through the additional principles'''
+import this # its list zen princple of python
