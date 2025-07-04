@@ -9,3 +9,10 @@ print(names[1]) #Output Micheal
 print(names[2]) #Output James
 print(names[3]) #Output Abel
 
+# exericse 3.2 Greating 
+'''Start with the list you used in Exercise 3.1, but instead of just printing each person's name, print a message to them.
+The text of each message should be the samae , but each message should be personalized with the person's name'''
+print(f"Hi {names[0]}, How was your day!")
+print(f"Hi {names[1]}, How was your day?")
+print(f"Hi {names[2]}, How was your day?")
+print(f"Hi {names[3]}, How was the your day")
