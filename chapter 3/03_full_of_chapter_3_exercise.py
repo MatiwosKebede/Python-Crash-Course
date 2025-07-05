@@ -28,7 +28,7 @@ print(message[0] + cars[0])
 '''If you could invite anyone, living or deceased, to dinner, who would you invite?
 Make a list that includes at least three people you'd like to invite to dinner. Then use your list to print a message to each person, inviting them to dinner.'''
 import datetime
-invite_names = ["Donald Trump", "Vladimir Putin", "Xi Jinping", "Benjamin Netanyahu", "Emmanuel Macron", "Abiy Ahmed"]
+invite_names = ["Donald Trump", "Vladimir Putin", "Xi Jinping", "Benjamin Netanyahu", "Abiy Ahmed"]
 date = datetime.datetime.now()
 date_str = str(date)
 invitation_message =f"I'm inviting to \nmy Birthday Party which is Jun 29 2025\nI am sure as I will meet you that day."
@@ -36,7 +36,29 @@ print(f"{date_str.rjust(50)} \nHello Mr {invite_names[0]} {invitation_message}")
 print(f"{date_str.rjust(50)} \nHello Mr {invite_names[1]} {invitation_message}")
 print(f"{date_str.rjust(50)} \nHello Mr {invite_names[2]} {invitation_message}")
 
-# exercise 3.5 'changing Guest list
+# exercise 3.5 changing Guest list
 '''You just heard that one of your guests can't make the dinner, so you need to send out a new set of inviations .
 You'll have to think of someone else to invite'''
 print(f"the name of guest who can't came to party.\n {invite_names[1]}\n {invite_names[0]} \n")
+del invite_names[0]
+del invite_names[1]
+print(f"{date_str.rjust(50)} \nHello Mr {invite_names[0]} {invitation_message}")
+print(f"{date_str.rjust(50)} \nHello Mr {invite_names[1]} {invitation_message}")
+print(f"{date_str.rjust(50)} \nHello Mr {invite_names[2]} {invitation_message}")
+
+# exercise 3.6 More Guests
+"""
+
+
+"""
+print("Name of a list who they added now \n - Benjamin Natanyahu \n - Robert Mugabe - \n Cristino Ronlado")
+invite_names.insert(0, "Benjamin Natanyahu")
+mid = (len(invite_names) - 1) / 2
+invite_names.insert(int(mid), "Robert Mugabe")
+invite_names.append("Cristino Ronaldo")
+for i in range(len(invite_names)):
+    print(f"{date_str.rjust(50)} \nHello Mr {invite_names[i]} {invitation_message}")
+
+# exercise 3.7 Shrinking Guest list
+''' You just found out that your new dinner won't arrive in time for the dinner,
+and you have space for only two guests.'''
