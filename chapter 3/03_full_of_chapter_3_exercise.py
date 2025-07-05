@@ -16,3 +16,27 @@ print(f"Hi {names[0]}, How was your day!")
 print(f"Hi {names[1]}, How was your day?")
 print(f"Hi {names[2]}, How was your day?")
 print(f"Hi {names[3]}, How was the your day")
+
+# exercise 3.3 Your Own List
+'''Think of your favorite mdoe of transportation, such as a motorcycle or a car, and make a list that stores several examples/
+Use your list to print a series of statements about these items, such as "I would like to own a Honda motorcycle.'''
+cars = ["Tesla", "BYD", "Toyota", "Lamborghini", "Ferarri"]
+message = ["I would like to own a ", "I would like to own an "]
+print(message[0] + cars[0])
+
+# exercise 3.4 Guest list
+'''If you could invite anyone, living or deceased, to dinner, who would you invite?
+Make a list that includes at least three people you'd like to invite to dinner. Then use your list to print a message to each person, inviting them to dinner.'''
+import datetime
+invite_names = ["Donald Trump", "Vladimir Putin", "Xi Jinping", "Benjamin Netanyahu", "Emmanuel Macron", "Abiy Ahmed"]
+date = datetime.datetime.now()
+date_str = str(date)
+invitation_message =f"I'm inviting to \nmy Birthday Party which is Jun 29 2025\nI am sure as I will meet you that day."
+print(f"{date_str.rjust(50)} \nHello Mr {invite_names[0]} {invitation_message}")
+print(f"{date_str.rjust(50)} \nHello Mr {invite_names[1]} {invitation_message}")
+print(f"{date_str.rjust(50)} \nHello Mr {invite_names[2]} {invitation_message}")
+
+# exercise 3.5 'changing Guest list
+'''You just heard that one of your guests can't make the dinner, so you need to send out a new set of inviations .
+You'll have to think of someone else to invite'''
+print(f"the name of guest who can't came to party.\n {invite_names[1]}\n {invite_names[0]} \n")
